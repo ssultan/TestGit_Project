@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129EDD7415F7909300FE94DE /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 129EDD6915F7909300FE94DE /* NSObject+SBJSON.m */; };
+		129EDD7515F7909300FE94DE /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 129EDD6B15F7909300FE94DE /* NSString+SBJSON.m */; };
+		129EDD7615F7909300FE94DE /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 129EDD6D15F7909300FE94DE /* SBJSON.m */; };
+		129EDD7715F7909300FE94DE /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 129EDD6F15F7909300FE94DE /* SBJsonBase.m */; };
+		129EDD7815F7909300FE94DE /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 129EDD7115F7909300FE94DE /* SBJsonParser.m */; };
+		129EDD7915F7909300FE94DE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 129EDD7315F7909300FE94DE /* SBJsonWriter.m */; };
+		12E8D86915F6710D00B3D152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E8D86815F6710D00B3D152 /* UIKit.framework */; };
+		12E8D86B15F6710D00B3D152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E8D86A15F6710D00B3D152 /* Foundation.framework */; };
+		12E8D86D15F6710D00B3D152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E8D86C15F6710D00B3D152 /* CoreGraphics.framework */; };
+		12E8D87315F6710D00B3D152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D87115F6710D00B3D152 /* InfoPlist.strings */; };
+		12E8D87515F6710D00B3D152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8D87415F6710D00B3D152 /* main.m */; };
+		12E8D87915F6710D00B3D152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8D87815F6710D00B3D152 /* AppDelegate.m */; };
+		12E8D87C15F6710D00B3D152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8D87B15F6710D00B3D152 /* ViewController.m */; };
+		12E8D87F15F6710D00B3D152 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D87D15F6710D00B3D152 /* ViewController_iPhone.xib */; };
+		12E8D88215F6710D00B3D152 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D88015F6710D00B3D152 /* ViewController_iPad.xib */; };
+		12E8D88C15F6755800B3D152 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8D88A15F6755800B3D152 /* MapViewController.m */; };
+		12E8D88D15F6755800B3D152 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D88B15F6755800B3D152 /* MapViewController.xib */; };
+		12E8D89E15F677AB00B3D152 /* cross_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D89D15F677AB00B3D152 /* cross_bar.png */; };
+		12E8D8A115F6784D00B3D152 /* yblank.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D8A015F6784D00B3D152 /* yblank.png */; };
+		12E8D8A315F679B900B3D152 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E8D8A215F679B900B3D152 /* CoreLocation.framework */; };
+		12E8D8A515F679D600B3D152 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E8D8A415F679D600B3D152 /* MapKit.framework */; };
+		12E8D8AA15F67F4000B3D152 /* MapDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8D8A815F67F4000B3D152 /* MapDetailsView.m */; };
+		12E8D8AB15F67F4000B3D152 /* MapDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E8D8A915F67F4000B3D152 /* MapDetailsView.xib */; };
+		12E8D8AE15F6815300B3D152 /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E8D8AD15F6815300B3D152 /* DisplayMap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		129EDD6715F7909300FE94DE /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		129EDD6815F7909300FE94DE /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		129EDD6915F7909300FE94DE /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		129EDD6A15F7909300FE94DE /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		129EDD6B15F7909300FE94DE /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		129EDD6C15F7909300FE94DE /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		129EDD6D15F7909300FE94DE /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		129EDD6E15F7909300FE94DE /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		129EDD6F15F7909300FE94DE /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		129EDD7015F7909300FE94DE /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		129EDD7115F7909300FE94DE /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		129EDD7215F7909300FE94DE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		129EDD7315F7909300FE94DE /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		12E8D86415F6710D00B3D152 /* Yard Sell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yard Sell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E8D86815F6710D00B3D152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12E8D86A15F6710D00B3D152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12E8D86C15F6710D00B3D152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12E8D87015F6710D00B3D152 /* YeardSell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YeardSell-Info.plist"; sourceTree = "<group>"; };
+		12E8D87215F6710D00B3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12E8D87415F6710D00B3D152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E8D87615F6710D00B3D152 /* YeardSell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YeardSell-Prefix.pch"; sourceTree = "<group>"; };
+		12E8D87715F6710D00B3D152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12E8D87815F6710D00B3D152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12E8D87A15F6710D00B3D152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12E8D87B15F6710D00B3D152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12E8D87E15F6710D00B3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		12E8D88115F6710D00B3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		12E8D88915F6755800B3D152 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		12E8D88A15F6755800B3D152 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		12E8D88B15F6755800B3D152 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		12E8D89D15F677AB00B3D152 /* cross_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_bar.png; sourceTree = "<group>"; };
+		12E8D8A015F6784D00B3D152 /* yblank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yblank.png; sourceTree = "<group>"; };
+		12E8D8A215F679B900B3D152 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		12E8D8A415F679D600B3D152 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		12E8D8A715F67F4000B3D152 /* MapDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailsView.h; sourceTree = "<group>"; };
+		12E8D8A815F67F4000B3D152 /* MapDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailsView.m; sourceTree = "<group>"; };
+		12E8D8A915F67F4000B3D152 /* MapDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapDetailsView.xib; sourceTree = "<group>"; };
+		12E8D8AC15F6815300B3D152 /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMap.h; sourceTree = "<group>"; };
+		12E8D8AD15F6815300B3D152 /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E8D86115F6710D00B3D152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E8D8A515F679D600B3D152 /* MapKit.framework in Frameworks */,
+				12E8D8A315F679B900B3D152 /* CoreLocation.framework in Frameworks */,
+				12E8D86915F6710D00B3D152 /* UIKit.framework in Frameworks */,
+				12E8D86B15F6710D00B3D152 /* Foundation.framework in Frameworks */,
+				12E8D86D15F6710D00B3D152 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129EDD6615F7909300FE94DE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				129EDD6715F7909300FE94DE /* JSON.h */,
+				129EDD6815F7909300FE94DE /* NSObject+SBJSON.h */,
+				129EDD6915F7909300FE94DE /* NSObject+SBJSON.m */,
+				129EDD6A15F7909300FE94DE /* NSString+SBJSON.h */,
+				129EDD6B15F7909300FE94DE /* NSString+SBJSON.m */,
+				129EDD6C15F7909300FE94DE /* SBJSON.h */,
+				129EDD6D15F7909300FE94DE /* SBJSON.m */,
+				129EDD6E15F7909300FE94DE /* SBJsonBase.h */,
+				129EDD6F15F7909300FE94DE /* SBJsonBase.m */,
+				129EDD7015F7909300FE94DE /* SBJsonParser.h */,
+				129EDD7115F7909300FE94DE /* SBJsonParser.m */,
+				129EDD7215F7909300FE94DE /* SBJsonWriter.h */,
+				129EDD7315F7909300FE94DE /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		12E8D85915F6710D00B3D152 = {
+			isa = PBXGroup;
+			children = (
+				12E8D8A415F679D600B3D152 /* MapKit.framework */,
+				12E8D8A215F679B900B3D152 /* CoreLocation.framework */,
+				12E8D86E15F6710D00B3D152 /* YeardSell */,
+				12E8D86715F6710D00B3D152 /* Frameworks */,
+				12E8D86515F6710D00B3D152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E8D86515F6710D00B3D152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E8D86415F6710D00B3D152 /* Yard Sell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E8D86715F6710D00B3D152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E8D86815F6710D00B3D152 /* UIKit.framework */,
+				12E8D86A15F6710D00B3D152 /* Foundation.framework */,
+				12E8D86C15F6710D00B3D152 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12E8D86E15F6710D00B3D152 /* YeardSell */ = {
+			isa = PBXGroup;
+			children = (
+				12E8D88815F6752700B3D152 /* MapView */,
+				12E8D87715F6710D00B3D152 /* AppDelegate.h */,
+				12E8D87815F6710D00B3D152 /* AppDelegate.m */,
+				12E8D87A15F6710D00B3D152 /* ViewController.h */,
+				12E8D87B15F6710D00B3D152 /* ViewController.m */,
+				12E8D87D15F6710D00B3D152 /* ViewController_iPhone.xib */,
+				12E8D88015F6710D00B3D152 /* ViewController_iPad.xib */,
+				12E8D86F15F6710D00B3D152 /* Supporting Files */,
+			);
+			path = YeardSell;
+			sourceTree = "<group>";
+		};
+		12E8D86F15F6710D00B3D152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				129EDD6615F7909300FE94DE /* JSON */,
+				12E8D89F15F677BB00B3D152 /* Images */,
+				12E8D87015F6710D00B3D152 /* YeardSell-Info.plist */,
+				12E8D87115F6710D00B3D152 /* InfoPlist.strings */,
+				12E8D87415F6710D00B3D152 /* main.m */,
+				12E8D87615F6710D00B3D152 /* YeardSell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12E8D88815F6752700B3D152 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				12E8D8AC15F6815300B3D152 /* DisplayMap.h */,
+				12E8D8AD15F6815300B3D152 /* DisplayMap.m */,
+				12E8D8A615F67F2000B3D152 /* MapDetailsView */,
+				12E8D88915F6755800B3D152 /* MapViewController.h */,
+				12E8D88A15F6755800B3D152 /* MapViewController.m */,
+				12E8D88B15F6755800B3D152 /* MapViewController.xib */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		12E8D89F15F677BB00B3D152 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12E8D8A015F6784D00B3D152 /* yblank.png */,
+				12E8D89D15F677AB00B3D152 /* cross_bar.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		12E8D8A615F67F2000B3D152 /* MapDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				12E8D8A715F67F4000B3D152 /* MapDetailsView.h */,
+				12E8D8A815F67F4000B3D152 /* MapDetailsView.m */,
+				12E8D8A915F67F4000B3D152 /* MapDetailsView.xib */,
+			);
+			name = MapDetailsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E8D86315F6710D00B3D152 /* YeardSell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E8D88515F6710D00B3D152 /* Build configuration list for PBXNativeTarget "YeardSell" */;
+			buildPhases = (
+				12E8D86015F6710D00B3D152 /* Sources */,
+				12E8D86115F6710D00B3D152 /* Frameworks */,
+				12E8D86215F6710D00B3D152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeardSell;
+			productName = YeardSell;
+			productReference = 12E8D86415F6710D00B3D152 /* Yard Sell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E8D85B15F6710D00B3D152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 12E8D85E15F6710D00B3D152 /* Build configuration list for PBXProject "YeardSell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12E8D85915F6710D00B3D152;
+			productRefGroup = 12E8D86515F6710D00B3D152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E8D86315F6710D00B3D152 /* YeardSell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E8D86215F6710D00B3D152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E8D87315F6710D00B3D152 /* InfoPlist.strings in Resources */,
+				12E8D87F15F6710D00B3D152 /* ViewController_iPhone.xib in Resources */,
+				12E8D88215F6710D00B3D152 /* ViewController_iPad.xib in Resources */,
+				12E8D88D15F6755800B3D152 /* MapViewController.xib in Resources */,
+				12E8D89E15F677AB00B3D152 /* cross_bar.png in Resources */,
+				12E8D8A115F6784D00B3D152 /* yblank.png in Resources */,
+				12E8D8AB15F67F4000B3D152 /* MapDetailsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E8D86015F6710D00B3D152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E8D87515F6710D00B3D152 /* main.m in Sources */,
+				12E8D87915F6710D00B3D152 /* AppDelegate.m in Sources */,
+				12E8D87C15F6710D00B3D152 /* ViewController.m in Sources */,
+				12E8D88C15F6755800B3D152 /* MapViewController.m in Sources */,
+				12E8D8AA15F67F4000B3D152 /* MapDetailsView.m in Sources */,
+				12E8D8AE15F6815300B3D152 /* DisplayMap.m in Sources */,
+				129EDD7415F7909300FE94DE /* NSObject+SBJSON.m in Sources */,
+				129EDD7515F7909300FE94DE /* NSString+SBJSON.m in Sources */,
+				129EDD7615F7909300FE94DE /* SBJSON.m in Sources */,
+				129EDD7715F7909300FE94DE /* SBJsonBase.m in Sources */,
+				129EDD7815F7909300FE94DE /* SBJsonParser.m in Sources */,
+				129EDD7915F7909300FE94DE /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12E8D87115F6710D00B3D152 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E8D87215F6710D00B3D152 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12E8D87D15F6710D00B3D152 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E8D87E15F6710D00B3D152 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		12E8D88015F6710D00B3D152 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E8D88115F6710D00B3D152 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E8D88315F6710D00B3D152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Salahuddin Sumon (4U7KYBDDPL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Salahuddin Sumon (4U7KYBDDPL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "23221190-ADB3-491F-8D74-57EB80F8A96F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "23221190-ADB3-491F-8D74-57EB80F8A96F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E8D88415F6710D00B3D152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Salahuddin Sumon (4U7KYBDDPL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Salahuddin Sumon (4U7KYBDDPL)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "23221190-ADB3-491F-8D74-57EB80F8A96F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "23221190-ADB3-491F-8D74-57EB80F8A96F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E8D88615F6710D00B3D152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YeardSell/YeardSell-Prefix.pch";
+				INFOPLIST_FILE = "YeardSell/YeardSell-Info.plist";
+				PRODUCT_NAME = "Yard Sell";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12E8D88715F6710D00B3D152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YeardSell/YeardSell-Prefix.pch";
+				INFOPLIST_FILE = "YeardSell/YeardSell-Info.plist";
+				PRODUCT_NAME = "Yard Sell";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E8D85E15F6710D00B3D152 /* Build configuration list for PBXProject "YeardSell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E8D88315F6710D00B3D152 /* Debug */,
+				12E8D88415F6710D00B3D152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E8D88515F6710D00B3D152 /* Build configuration list for PBXNativeTarget "YeardSell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E8D88615F6710D00B3D152 /* Debug */,
+				12E8D88715F6710D00B3D152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E8D85B15F6710D00B3D152 /* Project object */;
+}
